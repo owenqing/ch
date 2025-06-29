@@ -1,0 +1,16 @@
+[package]
+name = "ch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+tui = "0.19"
+crossterm = "0.27"
+toml = "0.7"
+log = "0.4"
+env_logger = "0.9"
+anyhow = "1"
+backtrace = "0.3"
+clap = { version = "4", features = ["derive"] }
+dirs = "5"
