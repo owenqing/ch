@@ -2,6 +2,8 @@
 
 A terminal user interface (TUI) application for managing and executing custom shell commands, organized by groups. Built with Rust, using the `tui` and `crossterm` libraries.
 
+![](./docs/example.jpg)
+
 ## Features
 - Organize commands into groups for easy access
 - Fuzzy search and filter commands
